@@ -24,7 +24,6 @@ def contours(photo):
 
     return open('image.jpg','rb')
 
-token = "789374632:AAGxi99fQZaOrYdFbD8JZyisGLQcbbn7CL0"
 bot = telebot.TeleBot(token) 
 
 @bot.message_handler(commands=['start'])
